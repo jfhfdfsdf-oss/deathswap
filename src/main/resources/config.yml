@@ -1,0 +1,6 @@
+swap-interval-seconds: 60
+effect-interval-seconds: 30
+starting-lives: 3
+max-lives: 20
+messages:
+  prefix: '&8[&dDeathSwap&8] '

@@ -1,0 +1,18 @@
+name: UltimateDeathSwap
+version: 1.0.0
+main: de.ultimatedeathswap.UltimateDeathSwap
+api-version: '1.21'
+author: OpenAI
+description: DeathSwap mit Leben, 50 Effekten und GUI.
+commands:
+  deathswap:
+    description: Verwaltet das Ultimate DeathSwap-Spiel.
+    usage: /deathswap <start|stop|restart|join|leave|setlives|reload>
+    aliases: [ds]
+  effekte:
+    description: Öffnet deine drei Effekt-Slots.
+    usage: /effekte
+permissions:
+  ultimatedeathswap.admin:
+    description: Darf DeathSwap administrieren.
+    default: op
